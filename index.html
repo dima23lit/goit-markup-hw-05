@@ -593,7 +593,7 @@
         <div class="footer-div-form">
           <p class="footer-form-title">Subscribe</p>
           <form class="footer-form">
-            <label
+            <label class="footer-label"
               ><input
                 type="email"
                 name="footer-input"
@@ -613,8 +613,8 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
-          <svg class="icon-close" width="24" height="24">
-            <use href="images/icons.svg#icon-close-black"></use>
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
         <p class="title-modal">Leave your contacts and we will call you back</p>
@@ -662,15 +662,15 @@
             </div>
           </div>
           <div class="modal-field modal-field-textarea">
-            <label class="modal-label"
-              ><span>Comment</span>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="modal-text"
-              ></textarea>
-            </label>
+            <label class="modal-label" for="user-comment"
+              ><span>Comment</span></label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="modal-text"
+            ></textarea>
           </div>
           <div class="modal-field modal-field-checkbox">
             <input
